@@ -1,0 +1,52 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box
+}
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    min-height:100vh;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #6527BE;
+}
+
+.main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:20px auto;
+}
+.grid{
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.square{
+    width:200px;
+    height:150px;
+    border: 3px solid;
+}
+
+.mole{
+   background-image: url("./mole.png");
+   background-size: cover;
+}
+
+button{
+    padding:10px; 
+}
+
+
+
